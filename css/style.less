@@ -22,6 +22,12 @@
 	src: url('../fonts/Roboto-Bold.ttf');
 }
 
+@font-face {
+	font-family: 'ProximaNova';
+	font-weight: 900;
+	src: url('../fonts/Proxima-Nova-Black.otf');
+}
+
 .container {
 	width: 1080px;
 	margin: 0 auto;
@@ -478,6 +484,89 @@
 		&:nth-child(4n+4) {
 			background: #cce0e3;
 		}
+	}
+
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
+
+.projects {
+	.element {
+		width: 50%;
+		height: 545px;
+		float: left;
+
+		.info {
+			width: 500px;
+			margin-right: 40px;
+			float: right;
+
+			.title {
+				color: #fff;
+				font-family: 'ProximaNova';
+				font-size: 32px;
+				font-weight: 900;
+				margin: 80px 0 20px;
+				text-transform: uppercase;
+			}
+
+			.description {
+				color: #fff;
+				font-family: 'Roboto';
+				font-size: 16px;
+				font-weight: 100;
+				line-height: 24px;
+
+				b {
+					font-weight: 300;
+				}
+			}
+		}
+
+		&:nth-child(4n+4) {
+			.info {
+				float: left;
+				margin-left: 40px;
+				margin-right: 0;
+			}
+		}
+	}
+
+	.project1 {
+		background: url('../img/project1.jpg');
+	}
+
+	.project2 {
+		background: url('../img/project2.jpg');
+	}
+
+	.project3 {
+		background: url('../img/project3.jpg');
+	}
+
+	.project4 {
+		background: url('../img/project4.jpg');
+	}
+
+	.project5 {
+		background: url('../img/project5.jpg');
+	}
+
+	.project6 {
+		background: url('../img/project6.jpg');
+	}
+
+	.project7 {
+		background: url('../img/project7.jpg');
+	}
+
+	.project8 {
+		background: url('../img/project8.jpg');
 	}
 
 	&:after {
