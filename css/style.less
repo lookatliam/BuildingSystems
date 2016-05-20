@@ -102,9 +102,9 @@
 	.company-name {
 		width: 600px;
 		color: #fff;
-		font-family: 'Roboto';
-		font-size: 70px;
-		font-weight: bold;
+		font-family: 'ProximaNova';
+		font-size: 64px;
+		font-weight: 900;
 		padding: 80px 0 0;
 		line-height: 65px;
 		text-transform: uppercase;
@@ -567,6 +567,127 @@
 
 	.project8 {
 		background: url('../img/project8.jpg');
+	}
+
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
+
+.office {
+	.element {
+		width: 50%;
+		height: 545px;
+		float: left;
+
+		.info {
+			width: 500px;
+			margin-right: 40px;
+			float: right;
+
+			.title {
+				color: #fff;
+				font-family: 'ProximaNova';
+				font-size: 48px;
+				font-weight: 900;
+				margin: 80px 0 20px;
+				text-transform: uppercase;
+				line-height: 52px;
+			}
+
+			.description {
+				color: #fff;
+				font-family: 'Roboto';
+				font-size: 16px;
+				font-weight: 100;
+				line-height: 22px;
+				margin-top: 40px;
+			}
+
+			.slogan {
+				color: #387cc5;
+				font-family: 'Roboto';
+				font-size: 16px;
+				font-weight: bold;
+				font-style: italic;
+				margin: 80px 0 30px;
+
+			}
+
+			.list {
+				list-style: disc;
+
+				li {
+					color: #387cc5;
+					margin: 20px 0 0 20px;
+					line-height: 22px;
+
+					span {
+						color: #000;
+						font-family: 'Roboto';
+						font-size: 16px;
+						font-weight: 100;
+
+					}
+				}
+			}
+
+			.addition {
+				color: #387cc5;
+				font-family: 'Roboto';
+				font-size: 16px;
+				font-style: italic;
+				font-weight: 300;
+				margin: 30px 0 0 20px;
+				line-height: 22px;
+			}
+
+			.text {
+				color: #000;
+				font-family: 'Roboto';
+				font-size: 18px;
+				font-weight: 100;
+				margin: 80px 0;
+			}
+		}
+
+		&:nth-child(4n+2) {
+			background: #f2f2f2;
+
+			.info {
+				float: left;
+				margin-left: 40px;
+				margin-right: 0;
+			}
+		}
+
+		&:nth-child(4n+4) {
+			.info {
+				float: left;
+				margin-left: 40px;
+				margin-right: 0;
+			}
+		}
+	}
+
+	.office_bg1 {
+		background: url('../img/office_bg1.jpg');
+	}
+
+	.office_bg2 {
+		background: url('../img/office_bg2.jpg');
+	}
+
+	.office_bg3 {
+		background: url('../img/office_bg3.jpg');
+	}
+
+	.office_bg4 {
+		background: url('../img/office_bg4.jpg');
 	}
 
 	&:after {
